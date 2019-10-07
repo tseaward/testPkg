@@ -2,5 +2,5 @@ using testPkg
 using Test
 
 @testset "testPkg.jl" begin
-    # Write your own tests here.
+    @test 1 == 1
 end
